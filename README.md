@@ -97,6 +97,88 @@
    - Add padding inside the card and a margin around it.  
    - Use a light background color and a subtle border.  
 
-```
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Example</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS: Styling for headings, paragraphs, and card */
+        h1 {
+            color: #4CAF50;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Georgia', serif;
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: justify;
+            color: #333;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+    <!-- External CSS File Link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Inline CSS: Styling for this paragraph -->
+    <p style="color: #ff6347; text-align: center;">This paragraph uses inline CSS to change the text color and center-align the text.</p>
+
+    <!-- Heading for the page -->
+    <h1>Welcome to the CSS Styling Example!</h1>
+
+    <!-- Card Component -->
+    <div class="card">
+        <h2>Card Title</h2>
+        <p>This is a simple card component that includes a title and a description. It uses padding, margin, a light background, and a subtle border to create a visually appealing container for content.</p>
+    </div>
+
+    <!-- A simple link to demonstrate external CSS link styling -->
+    <a href="#" class="styled-link">Click me for more info</a>
+
+</body>
+</html>
+
+
+
+/* External CSS: This file is linked to the HTML file */
+
+/* Set background color for the entire webpage */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style links and add hover effect */
+.styled-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.styled-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
 
 This assignment will solidify your CSS basics while giving you a chance to style your first webpage creatively. Good luck and happy styling! 🎨🚀
