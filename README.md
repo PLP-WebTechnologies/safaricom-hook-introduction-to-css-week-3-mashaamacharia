@@ -22,6 +22,58 @@
    - **ID Selector**: Add a border to an element with a unique ID.  
 
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Elements</title>
+    <style>
+        /* Element Selector: Style all headings */
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        /* Class Selector: Apply background color to specific sections */
+        .highlight-section {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* ID Selector: Add a border to an element with a unique ID */
+        #unique-div {
+            border: 2px solid #007bff;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #e9f7fd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading (Element Selector) -->
+    <h1>Welcome to the Styled Page!</h1>
+
+    <!-- Paragraph -->
+    <p>This is a simple webpage with different types of HTML elements styled using CSS selectors.</p>
+
+    <!-- Section with Class Selector -->
+    <div class="highlight-section">
+        <h2>Special Section</h2>
+        <p>This section has a background color applied using a class selector.</p>
+    </div>
+
+    <!-- Section with ID Selector -->
+    <div id="unique-div">
+        <h2>Unique Styled Section</h2>
+        <p>This section has a border applied using an ID selector.</p>
+    </div>
+
+</body>
+</html>
+
 
 #### **Part 2: Inline, Internal, and External CSS (30 Points)**  
 1. Use **inline CSS** to style one element (e.g., change the text color).  
